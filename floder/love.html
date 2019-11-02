@@ -1,1 +1,54 @@
 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>w.l</title>
+    <style type="text/css">
+        body{
+            background-image: url(./images/15.jpg);
+            background-size: 100% 100%;
+        }
+        html{
+            height: 100%;
+        }
+        @keyframes myfirst {
+            0%{opacity: 0}
+            10%{opacity: 0}
+            45%{opacity: 100}
+            50%{opacity: 0}
+            100%{opacity: 0}
+
+        }
+        @keyframes mysecond {
+            0%{opacity: 0}
+            25%{opacity: 0}
+            55%{opacity: 0}
+            100%{opacity: 100}
+        }
+        p{
+            font-size: 80px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+
+        }
+        #yongyou{
+            animation: myfirst 61s infinite;
+        }
+        #shiqu{
+            animation: mysecond 61s infinite;
+        }
+    </style>
+</head>
+
+<body>
+<audio src="mp3/1.mp3" controls="controls" autoplay="autoplay" loop="loop"></audio>
+<p id="yongyou">我拥有的都是侥幸啊</p>
+<p id="shiqu">我失去的都是人生</p>
+
+</body>
+
+</html>
